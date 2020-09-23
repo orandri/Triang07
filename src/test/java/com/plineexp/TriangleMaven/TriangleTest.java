@@ -7,12 +7,13 @@ import org.junit.Test;
 public class TriangleTest {
 
 	Triangle triangle1 = new Triangle();
-	@Test
+	/*@Test
 	public void test1() {
 			assertEquals("Echecs, ce triangle n'est pas Equilatéral",
 					"Equilateral", triangle1.TriangleType(5, 5, 4)
 				    );
 		}
+*/
 
 	@Test
 	public void test() {
