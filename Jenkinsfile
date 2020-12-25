@@ -5,7 +5,7 @@ pipeline {
         stage('Git Verification') {
             steps {
                 // Get some code from a GitHub repository
-                git credentialsId: 'f9045a0b-afe4-4d37-9daf-0a5939a35d63', url: 'https://github.com/safaa-09/Hello-world.git'
+                git credentialsId: 'f9045a0b-afe4-4d37-9daf-0a5939a35d63', url: 'https://github.com/safaa-09/Triang07.git'
             }
         }
         
