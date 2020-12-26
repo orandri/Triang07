@@ -15,12 +15,6 @@ public class TriangleTest {
 		}
 */
 
-	/*@Test
-	public void test() {
-		assertEquals("Echecs, ce triangle n'est pas scalène",
-				"Scalene", triangle1.TriangleType(5, 5, 4)
-			    );
-	}*/
 	
 	@Test
 	public void Test2() {assertEquals("Isocèle", triangle1.TriangleType(5, 5, 4)
