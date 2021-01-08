@@ -13,6 +13,7 @@ pipeline {
         stage('Building'){
             steps{
              // Run Maven on a Unix agent.
+                echo "Je suis sur la branche Master"
                 sh 'mvn compile'
             }
                 // To run Maven on a Windows agent, use
