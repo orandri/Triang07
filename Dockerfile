@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:17
 COPY ./src/main/java /usr/src/myapp
 WORKDIR /usr/src/myapp
 RUN javac ./com/mycompany/app/App.java
