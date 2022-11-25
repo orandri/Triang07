@@ -1,8 +1,5 @@
-FROM java:17
-
-EXPOSE 8080
-
-ADD /target/TriangleMaven-0.0.1-SNAPSHOT.jar TriangleMaven-0.0.1-SNAPSHOT.jar
-
-ENTRYPOINT ["java","-jar","TriangleMaven-0.0.1-SNAPSHOT.jar"]
-
+FROM openjdk:11
+COPY ./src/main/java /usr/src/myapp
+WORKDIR /usr/src/myapp
+RUN javac com/mycompany/app/App.java
+CMD ["java", "com/mycompany/app/App"]
